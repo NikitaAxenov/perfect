@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mobile_app_photo_edit">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_avocaydo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_avocaydo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ShashlickActivity"></activity>
+        <activity android:name=".ScalingActivity" />
+        <activity android:name=".SplineInterpolationActivity" />
+        <activity android:name=".Cube3DActivity" />
+        <activity android:name=".UnsharpMaskingActivity" />
+        <activity android:name=".RetouchingActivity" />
+        <activity android:name=".ColorFiltersActivity" />
+        <activity android:name=".RotationActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/image_rotation"
+        android:title="Image rotation"
+        android:icon="@drawable/ic_launcher_background"/>
+    <item
+        android:id="@+id/image_color_correction"
+        android:title="Color correction and filtres"
+        android:icon="@drawable/ic_launcher_background"/>
+    <item
+        android:id="@+id/image_scaling"
+        android:title="Scaling"
+        android:icon="@drawable/ic_launcher_background"/>
+    <item
+        android:id="@+id/image_broken_lines"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="Spline interpolation" />
+    <item
+        android:id="@+id/image_retouching"
+        android:title="Retouching"
+        android:icon="@drawable/ic_launcher_background"/>
+    <item
+        android:id="@+id/image_unsharp_masking"
+        android:title="Unsharp masking"
+        android:icon="@drawable/ic_launcher_background"/>
+    <item
+        android:id="@+id/cube_3d"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="3D cube" />
+    <item
+        android:id="@+id/shashlick"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="Shashlick calculator" />
+
+
+</menu>
